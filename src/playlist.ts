@@ -33,6 +33,7 @@ interface Song {
   playlist.addSong({ title: "Song 1", artist: "Artist 1", duration: 240 });
   playlist.addSong({ title: "Song 2", artist: "Artist 2", duration: 300 });
   
+  //
   console.log(playlist.getTotalDuration());
   console.log(playlist.getSongsByArtist("Artist 1"));
   
